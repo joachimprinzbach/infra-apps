@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92045995-3dac-48af-8d57-cf974abc65c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/argocd-apps/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/argocd-apps/castillo.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/argocd-apps/templates/app-project.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/argocd-apps/templates/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/argocd-apps/templates/helpers.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/argocd-apps/templates/namespace.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/argocd-bootstrap/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/argocd-bootstrap/templates/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/argocd-bootstrap/values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/argocd/argocd-cmd-params-cm-patch.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/argocd/kustomization.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +44,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672950663576</updated>
-      <workItem from="1672950666198" duration="1927000" />
+      <workItem from="1672950666198" duration="2613000" />
     </task>
+    <task id="LOCAL-00001" summary="Add basic setup">
+      <created>1672952644814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672952644814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add basic setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add basic setup" />
   </component>
 </project>

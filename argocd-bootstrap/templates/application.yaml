@@ -14,7 +14,7 @@ spec:
     helm:
       valueFiles:
         - "{{ .name }}.yaml"
-    path: apps
+    path: argocd-apps
     repoURL: {{ $.Values.repository }}
     targetRevision: HEAD
   syncPolicy:
