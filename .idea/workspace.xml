@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="869fc633-b48f-4a83-af32-074d24736335" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/argocd/argocd-cmd-params-cm-patch.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/argocd/kustomization.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra-apps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingress-loadbalander-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s-dashboard-ingress.yaml" afterDir="false" />
+    <list default="true" id="92045995-3dac-48af-8d57-cf974abc65c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/argocd-apps/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argocd-apps/castillo.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argocd-apps/templates/app-project.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argocd-apps/templates/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argocd-apps/templates/helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argocd-apps/templates/namespace.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argocd-bootstrap/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argocd-bootstrap/templates/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argocd-bootstrap/values.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argocd/argocd-cmd-params-cm-patch.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/argocd/kustomization.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +26,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="microk8s" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Juqryg4Ut3xesRT3sTp0SnJpxQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="2JvFU0aXzjbKCJ7044BdYiZ8cB5" />
+  <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,20 +49,15 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\joach\IdeaProjects\infra-apps" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="869fc633-b48f-4a83-af32-074d24736335" name="Changes" comment="" />
-      <created>1672938522169</created>
+      <changelist id="92045995-3dac-48af-8d57-cf974abc65c4" name="Changes" comment="" />
+      <created>1672950663576</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672938522169</updated>
-      <workItem from="1672938523492" duration="6034000" />
+      <updated>1672950663576</updated>
+      <workItem from="1672950666198" duration="1927000" />
     </task>
     <servers />
   </component>

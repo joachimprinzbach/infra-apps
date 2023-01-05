@@ -1,0 +1,17 @@
+repository: https://github.com/joachimprinzbach/castillo-apps.git
+namespace:
+  annotations: {}
+
+enableDefaultNetworkPolicy: false
+enableDefaultLimitRange: false
+allowAllNamespaces: true
+
+roleBindings:
+
+clusterResourceWhitelist:
+
+namespaceResourceBlacklist:
+
+applications:
+  argocd:
+    disableAutoSync: true

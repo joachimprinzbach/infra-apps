@@ -1,0 +1,3 @@
+repository: https://github.com/joachimprinzbach/infra-apps.git
+bootstrap:
+  - name: castillo
