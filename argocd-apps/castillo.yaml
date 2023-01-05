@@ -9,6 +9,8 @@ allowAllNamespaces: true
 roleBindings:
 
 clusterResourceWhitelist:
+  - group: '*'
+    kind: '*'
 
 namespaceResourceBlacklist:
 
